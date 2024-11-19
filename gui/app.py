@@ -23,7 +23,7 @@ def resource_path(relative_path):
 class PlaylistUpdaterApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("RetroArch Playlist Updater by GoodLuckTrying")
+        self.root.title("RetroArch Playlist Updater v1.1 by GoodLuckTrying")
         self.root.geometry("500x550")
         self.root.configure(bg="#F0F0F0")
 
